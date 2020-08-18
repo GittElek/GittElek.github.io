@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(255,208,0);
+}
+
+/* divkulso és divbelso stílusok funkciója:
+Egy div-en (divkulso - szülőelem) belüli másik div (divbelso - gyerek)
+vízszintesen középre rendezése */
+
+.divkulso {
+    width: 100%;
+    text-align: center;
+}
+
+.divbelso {
+    background-color: yellowgreen;
+    display: inline-block;
+    min-width: 50%;
+    text-align: initial;
+}
+
+.navigacio {
+    text-align: center;
+}
+
+div.navigacio a {
+    display: inline-table;
+    width: 15%;
+    padding: 2px;
+    border: solid 4px brown;
+    border-radius: 6px;
+    margin: 0 4px;
+    font-weight: bold;
+    text-decoration-line: none;
+    color: rgb(255,208,0);
+    background-color: sienna;
+}
